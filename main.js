@@ -71,7 +71,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: true, canvas });
 
 renderer.setSize(width, height);
 
-const axesHelper = new THREE.AxesHelper(1);
+const axesHelper = new THREE.AxesHelper(2);
 scene.add(axesHelper);
 
 const clock = new THREE.Clock();
@@ -86,7 +86,7 @@ const tick = () => {
 };
 tick();
 
-let speed = 1;
+let speed = 5;
 
 KeyboardController(
     {
