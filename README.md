@@ -1,5 +1,5 @@
 Just control the bug
 
-Visit https://samsaller.github.io/Threejs-Bug/
+https://samsaller.github.io/Threejs-first/
 
 Controls - WASD
